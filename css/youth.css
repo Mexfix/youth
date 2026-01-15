@@ -1,0 +1,12 @@
+.portfolio-img{
+  width: 100%;
+  aspect-ratio: 650 / 350;   /* 关键：统一比例 */
+  overflow: hidden;
+}
+
+.portfolio-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* 填满 + 自动裁剪 */
+  display: block;
+}
