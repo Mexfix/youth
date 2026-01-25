@@ -10,3 +10,10 @@
   object-fit: cover;        /* 填满 + 自动裁剪 */
   display: block;
 }
+
+.project-description{
+  margin-top: .75rem;
+  font-size: 0.95rem;
+  line-height: 1.9;
+  max-width: 90%;
+}
